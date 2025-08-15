@@ -4,38 +4,6 @@ wait(2.5)
 msg:Destroy()
 local msg = Instance.new("Message",workspace)
 msg.Text = "sb脚本作者：我是sb"
-wait(1.8)
-msg:Destroy()
-local msg = Instance.new("Message",workspace)
-msg.Text = "发现新版本请点击《更新》"
-wait(1.8)
-msg:Destroy()
-local msg = Instance.new("Message",workspace)
-msg.Text = "《更新》"
-wait(1.2)
-local msg = Instance.new("Message",workspace)
-msg.Text = "加载中10%"
-wait(1.0)
-local msg = Instance.new("Message",workspace)
-msg.Text = "加载中30%"
-wait(1.0)
-local msg = Instance.new("Message",workspace)
-msg.Text = "加载中50%"
-wait(1.0)
-local msg = Instance.new("Message",workspace)
-msg.Text = "加载中80%"
-wait(1.0)
-local msg = Instance.new("Message",workspace)
-msg.Text = "加载中99%"
-wait(5.0)
-local msg = Instance.new("Message",workspace)
-msg.Text = "加载完毕"
-wait(1.0)
-local msg = Instance.new("Message",workspace)
-msg.Text = "请您愉快的玩耍吧"
-wait(1.0)
-msg:Destroy()
-
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
