@@ -1,9 +1,9 @@
 local msg = Instance.new("Message",workspace)
-msg.Text = "欢迎使用sb脚本"
+msg.Text = "欢迎使用最终战场脚本"
 wait(2.5)
 msg:Destroy()
 local msg = Instance.new("Message",workspace)
-msg.Text = "sb脚本作者：我是sb"
+msg.Text = "脚本作者：快乐成长"
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
@@ -41,14 +41,14 @@ local function HeartbeatUpdate()
 	FrameUpdateTable[1] = LastIteration
 	local CurrentFPS = (tick() - Start >= 1 and #FrameUpdateTable) or (#FrameUpdateTable / (tick() - Start))
 	CurrentFPS = CurrentFPS - CurrentFPS % 1
-	FpsLabel.Text = ("马牛逼时间"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S").."秒")
+	FpsLabel.Text = ("快乐成长时间"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S").."秒")
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "马牛逼脚本", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用马牛逼脚本（可以免费领皮肤）", ConfigFolder = "作者：马牛逼"})
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "马牛逼脚本"; Text ="欢迎使用马牛逼脚本"; Duration = 4; })
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "马牛逼脚本"; Text ="马牛逼脚本作者：马牛逼"; Duration = 4; })
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "马牛逼脚本"; Text ="玩脚本就玩马牛逼脚本"; Duration = 4; })
+local Window = OrionLib:MakeWindow({Name = "最终战场脚本", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用马牛逼脚本（可以免费领皮肤）", ConfigFolder = "作者：马牛逼"})
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "最终战场脚本"; Text ="欢迎使用最终战场脚本"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "最终战场脚本"; Text ="最终战场脚本作者：快乐成长"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "最终战场脚本"; Text ="玩脚本最终战场脚本"; Duration = 4; })
 local Tab = Window:MakeTab({
     Name = "用户信息",
     Icon = "rbxassetid://4483345998",
@@ -60,7 +60,7 @@ Tab:AddParagraph("你的注入器:"," "..identifyexecutor().."")
 Tab:AddParagraph("服务器的ID"," "..game.GameId.."")
 
 local Tab = Window:MakeTab({
-    Name = "各大皮肤",
+    Name = "各大78",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
