@@ -29,7 +29,7 @@ local Heartbeat = game:GetService("RunService").Heartbeat
 local LastIteration, Start
 local FrameUpdateTable = { }
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "Rb脚本中心"; Text ="加载成功,请享受!"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "SB脚本中心"; Text ="加载成功,请享受!"; Duration = 4; })
 
 local function HeartbeatUpdate()
 	LastIteration = tick()
@@ -43,11 +43,11 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "Rb脚本中心 V_1.1.9", HidePremium = false, SaveConfig = true,IntroText = "Yungengxin制作", ConfigFolder = "Yungengxin制作"})
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "Yungengxin制作"; Text ="Yungengxin制作"; Duration = 4; })
+local Window = OrionLib:MakeWindow({Name = "SB脚本中心 V_1.1.9", HidePremium = false, SaveConfig = true,IntroText = "Qilinqi制作", ConfigFolder = "Qlinqi制作"})
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "Qilinqi制作"; Text ="Qilinqi制作"; Duration = 4; })
 
 local about = Window:MakeTab({
-    Name = "Yungengxin出品",
+    Name = "Qlinqi出品",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -69,15 +69,15 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "复制Rb脚本交流群QQ",
+	Name = "复制SB脚本交流群QQ",
 	Callback = function()
      setclipboard("1018099361")
   	end
 })
 
 OrionLib:MakeNotification({
-	Name = "Rb脚本中心",
-	Content = "欢迎使用Rb脚本中心",
+	Name = "SB脚本中心",
+	Content = "欢迎使用SB脚本中心",
 	Image = "rbxassetid://4483345998",
 	Time = 2
 
@@ -95,7 +95,7 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 
-	Name = "Yungengxin制作"
+	Name = Qilinqi制作"
 
 })
 
