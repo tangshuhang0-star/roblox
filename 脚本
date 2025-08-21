@@ -1,4 +1,3 @@
-可2改
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")() 
 
 local OpenUI = Instance.new("ScreenGui") 
